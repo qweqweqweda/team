@@ -1,0 +1,148 @@
+/* 배경이미지 */
+
+			body {
+				background-image:url(images/background/wood.jpg);
+			}
+
+			/* 사이트 대문 */
+			
+			header {
+				background-color:black;
+				width:100%;
+				position:fixed;
+				top:0px;
+				left:0px;
+			}
+
+			/* 대문 글자 */
+
+			.title {
+				color:white;
+				text-align:center;
+			}
+
+			/* 로그인, 메뉴 */
+
+			nav {
+				margin-top:120px;
+			}
+
+			/* 메뉴 */
+			
+			.topmenu {
+				list-style:none;
+				width:100%;
+				background-color:black;
+				margin-left:-10px;
+				padding:10px;
+				text-align:center;
+			}
+
+			/* 메뉴 글자 */
+
+			.topmenu li {
+				display:inline;
+				margin-left:0px;
+				padding-left:50px;
+			}
+
+			/* 메뉴 링크 */
+
+			.topmenu a {
+				font:1.5em "Times New";
+				color:#fff;
+				text-decoration:none;
+			}
+
+			/* 링크 작동 */
+
+			a:hover {
+				color:#ff3;
+			}
+
+			/* 오른쪽 사이드 메뉴 */	
+		
+			aside {
+				float:right;
+				margin-top:100px;
+				margin-right:150px;
+			}
+
+			/* 사이드 메뉴 3개 */ 
+			
+			.select {
+				font:15pt "맑은 고딕", 돋움;
+				line-height:150%;
+				color:black;
+				background:white;
+				border:4px solid black;
+				border-radius:10px;
+				box-shadow:0px 0px 20px #000000;
+				width:120px;
+				height:100px;
+				list-style:none;
+				text-align:left;
+				padding-left:10px;
+			}
+
+			/* 사이드 메뉴 색변경 */ 
+
+			.select li:nth-child(1) a {
+				color:red;
+			}
+	
+			/* 사이드 메뉴 링크 */ 
+
+			.select a {
+				color:black;
+				text-decoration:none;
+			}
+
+			/* 본문 */
+
+			section {
+				margin-top:50px;
+			}
+
+			/* 수리 전체 틀 */ 
+
+			.repair_body {
+				font:15pt "맑은 고딕", 돋움;
+				line-height:150%;
+				color:black;
+				width:800px;
+				height:600px;
+				padding:10px;
+				background:white;
+				border:4px solid black;
+				border-radius:10px;
+				box-shadow:0px 0px 20px #000000;
+				text-align:center;
+				margin:0 auto;
+			}
+
+			/* 수리 내용 */
+
+			.repair {
+				text-align:left;
+				margin-left:50px;
+			}
+
+			/* 전화번호 1,2 */
+			
+			.phone1, .phone2 {
+				width:40px;
+			}
+
+			/* 전송 버튼 */			
+
+			.submit {
+				text-align:center;
+			}
+
+			/* 추가 설명 */
+
+			.etc {
+				text-align:center;
+				margin:0 auto;
+			}

@@ -1,0 +1,104 @@
+/* 배경이미지 */
+
+			body {
+				background-image:url(images/background/wood.jpg);
+			}
+
+			/* 사이트 대문 */
+			
+			header {
+				background-color:black;
+				width:100%;
+				position:fixed;
+				top:0px;
+				left:0px;
+			}
+
+			/* 대문 글자 */
+
+			.title {
+				color:white;
+				text-align:center;
+			}
+
+			/* 로그인, 메뉴 */
+
+			nav {
+				margin-top:120px;
+			}
+
+			/* 메뉴 */
+			
+			.topmenu {
+				list-style:none;
+				width:100%;
+				background-color:black;
+				margin-left:-10px;
+				padding:10px;
+				text-align:center;
+			}
+
+			/* 메뉴 글자 */
+
+			.topmenu li {
+				display:inline;
+				margin-left:0px;
+				padding-left:50px;
+			}
+
+			/* 메뉴 링크 */
+
+			.topmenu a {
+				font:1.5em "Times New";
+				color:#fff;
+				text-decoration:none;
+			}
+
+			/* 링크 작동 */
+
+			a:hover {
+				color:#ff3;
+			}
+
+			/* 본문 */
+
+			section {
+				margin-top:50px;
+			}
+
+			/* 글 전체 틀 */ 
+
+			.write_body {
+				font:15pt "맑은 고딕", 돋움;
+				line-height:150%;
+				color:black;
+				width:800px;
+				height:600px;
+				padding:10px;
+				background:white;
+				border:4px solid black;
+				border-radius:10px;
+				box-shadow:0px 0px 20px #000000;
+				text-align:center;
+				margin:0 auto;
+			}
+
+			/* 글 내용 */
+
+			.write {
+				text-align:left;
+				margin-left:50px;
+			}
+
+			/* 내용 */
+
+			.etc {
+				text-align:center;
+				margin-left:-50px;
+			}
+
+			/* 작성 버튼 */			
+
+			.submit {
+				text-align:center;
+			}
