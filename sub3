@@ -1,0 +1,187 @@
+<!doctype html>
+<html>
+	<head>
+		<title>buy,sub3</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="css/sub3.css">
+		<style type="text/css">
+
+	
+			/* 배경 이미지 */
+
+			body {
+				background-image:url(images/background/wood.jpg);
+			}
+
+			/* 사이트 대문 */
+
+			header {
+				background-color:black;
+				width:100%;
+				position:fixed;
+				top:0px;
+				left:0px;
+			}
+
+			/* 대문 글자 */
+
+			.title {
+				color:white;
+				text-align:center;
+			}
+
+			/* 로그인, 메뉴  */
+
+			nav {
+				margin-top:120px;
+			}
+
+			/* 메뉴 */
+			
+			.topmenu {
+				list-style:none;
+				width:100%;
+				background-color:black;
+				margin-left:-10px;
+				padding:10px;
+				text-align:center;
+			}
+
+			/* 메뉴 글자 */
+
+			.topmenu li {
+				display:inline;
+				margin-left:0px;
+				padding-left:50px;
+			}
+
+			/* 메뉴 링크 */
+
+			.topmenu a {
+				font:1.5em "Times New";
+				color:#fff;
+				text-decoration:none;
+			}
+
+			/* 링크 작동 */
+
+			a:hover {
+				color:#ff3;
+			}
+			/* 본문 */
+
+			section {
+				margin:0 auto;
+				margin-top:50px;
+			}
+
+			/* 베스트 셀러 대문 */
+			
+			.sell_head {
+				background-color:black;
+				width:100%;
+				margin-left:0px;
+			}
+
+			/* 베스트 셀러 타이틀 */
+		
+			.sell_title {
+				text-align:center;
+				color:white;
+			}
+
+			/*  베스트 셀러 전체 틀 */
+				
+			.sell_body {
+				font:15pt "맑은 고딕", 돋움;
+				color:black;
+				width:1000px;
+				height:1500px;
+				background-color:white;
+				border:4px solid black;
+				border-radius:10px;
+				box-shadow:0px 0px 20px #000000;
+				text-align:left;
+				margin:auto;
+			}
+
+			/* 베스트 셀러 테이블 */
+
+			.sell_table {
+				text-align:left;
+				margin: auto;
+			}
+			
+			.book1, .book2, .book3, .book4, .book5, .book6 {
+				color:black;
+				width : 300px;
+				height: 350px;
+				padding:2px;
+				margin:5px;
+				background:white;
+				border:3px solid black;
+				border-radius:10px;
+				text-align:center;
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<h2 class="title">온라인 북 스토어</h2>
+		</header>
+
+		<nav>
+			<ul class="topmenu">
+				<li><a href="sub1.html">소개</a></li>
+				<li><a href="sub2.html">이벤트</a></li>
+				<li><a href="sub3.html">구매</a></li>
+				<li><a href="sub4.html">커뮤니티</a></li>
+				<li><a href="sub5.html">FAQ</a></li>
+			</ul>
+			
+						<div class="sell_head">	
+				<h2 class="sell_title">인기순으로 보기</h2>
+			</div>
+		</nav>
+		<section>
+		<div class="sell_body">
+				<table class="sell_table" border="0">
+				<tr>
+						<td>
+							<fieldset class="book1">
+								<legend>오래되고 멋진 클래식 레코드</legend>
+									<a href="index1_1.html"><img src="images/book/record.jpg"></a></fieldset>
+						</td>
+						<td>
+							<fieldset class="book2">
+								<legend>도파민네이션</legend>
+									<a href="index2_2.html"><img src="images/book/dopa.jpg"</a></fieldset>
+						</td>
+						<td>
+							<fieldset class="book3">
+								<legend>재무제표로 찾아낸 저평가 주식 53</legend>
+									<a href="index3_1.html"><img src="images/book/gemu.jpg"</a></fieldset>
+						</td>
+						<tr>
+						<td>
+							<fieldset class="book4">
+								<legend>용서받지 못한 밤</legend>
+									<a href="index4_1.html"><img src="images/book/bam.jpg"</a></fieldset>
+						</td>
+						<td>
+							<fieldset class="book5">
+								<legend>돈의 속성</legend>
+									<a href="index5_1.html"><img src="images/book/don.jpg"</a></fieldset>
+						</td>	
+						<td>
+							<fieldset class="book6">
+								<legend>주식 잘 사고 잘 파는 법</legend>
+									<a href="index6_1.html"><img src="images/book/jusik.jpg"</a></fieldset>
+						</td>		
+					</tr>
+				
+						</table>
+						</div>
+						</section>
+		</body>
+</html>
